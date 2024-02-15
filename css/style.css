@@ -1,22 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
-.h-line1 {
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header1 {
     display: flex;
+    justify-content: right;
+    height: 4vw;
+    align-items: center;
 }
 
 .titulo {
     color:rgb(110,46,8);
     font-family: 'Caveat',cursive;
     font-weight: 700;
-    width: 70%;
-    background-color: olivedrab;
+    width: 100%;
     text-align: center;
+    position: absolute;
+    z-index: -1 ;
 }
 
 .busqueda {
-    background-color: blue;
+    display: flex;
+    background-color:aquamarine;
+    margin-right: 50px;
+    align-items: center;
 }
 
 .notificaciones {
+    margin-left: 10px;
     display: flex;
 }
+
+.notificacion {
+    margin-left: 10px;
+    display: grid;
+}
+
+.conteo {
+    color: red;    
+    grid-column:1/2;/*1,2,3*/
+    grid-row:1/2;
+    
+  }
+  
+.img-notif{
+    grid-column:2/3;/*2*/
+    grid-row:2/3;
+    top: -4;
+  }
