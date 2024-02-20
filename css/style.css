@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
 .header1 {
     display: flex;
     justify-content: right;
     height: 4vw;
-    align-items: center;
-}
+    align-items: center; }
 .titulo {
     color:rgb(110,46,8);
     font-family: 'Caveat',cursive;
@@ -18,287 +16,228 @@ body {
     position: absolute;
     z-index: -1 ;
     font-size: 30px;
-    margin-bottom: 10px;
-}
+    margin-bottom: 10px; }
 .busqueda {
     display: flex;
     margin-right: 50px;
-    align-items: center;
-}
+    align-items: center; }
 .txt-search {
     border-radius: 30px 0px 0px 30px;
     border-width: 2px 1px 2px 2px;
     border-color:rgb(110,46,8);
-    padding-left: 10px;
-}
+    padding-left: 10px; }
 .notificaciones {
-    display: flex;
-}
+    display: flex; }
 .notificacion {
     text-align: center;
-    width: 50px;
-}
+    width: 50px; }
 .notif-img {
     display: block;
     margin: 10px auto 0;
     font-size: 20px;
     color: black;
     margin-top: 0;
-    padding-top: 5px;
-}
+    padding-top: 5px; }
 .notif-liga {
     display: block;
-    position: relative;
-}
+    position: relative; }
 .notif-conteo {
     position: absolute;
     left: 10%;
     font-size: 15px;
-    color: red;
-}
+    color: red; }
 .header-nav {
-    background-color: #b69a76;
-}
+    background-color: #b69a76; }
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 0% 25% 0% 25%;
-}
+    margin: 0% 25% 0% 25%; }
 .menu-element {
     font-family: 'Tahoma';
     color: white;
     text-decoration: none;
     font-size: 12px;
-    margin: 5px 5px 5px 5px;
-}
-
+    margin: 5px 5px 5px 5px; }
+.menu-element:hover {
+    color:rgb(110,46,8); }
 .slogan {
     display: flex;
     height: 250px;
-    width: 100vw;
+    width: 100%;
     background-image: url("../img/portada.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     align-items:center;
-    justify-content:center; 
-}
+    justify-content:center; }
 .mensaje{
     display:flex;
     height:75%;
-    width:75%;
-  }
+    width:75%; }
 .mensaje-grid {
     display: grid;
     color:white;
     width: 100%;
     text-align: center;
-    font-family: 'Geneva';
-}
+    font-family: 'Geneva'; }
 .mensaje-1 {
     grid-column: 1/2;
     grid-row: 1/2;
     font-size: 30px;
     padding-top: 35px;
-    font-weight: bold;
-}
+    font-weight: bold; }
 .mensaje-2 {
     grid-column: 1/2;
     grid-row: 2/3;
-    font-style: italic;
-}
+    font-style: italic; }
+.sec-libros {
+    margin: 60px 50px 0px 60px; }
 h2 {
     font-size: 18px;
-    color: rgba(144,25,10,255);
-}
+    color: rgba(144,25,10,255); }
 .contenedor-tarjetas {
-    height: 305px;
-    overflow: auto;
-}
-.tarjetas-libro {
+    height: 340px;
+    overflow: auto; 
+    margin-left: 50px;}
+.tarjetas-libro {    
     display: flex;
-    width: fit-content;
-}
+    width: fit-content; }
 .tarjeta-libro{
     display: block;
-    height: 280px;
-    width: 150px;
-    margin-right: 75px;
-}
+    width: 180px;
+    margin-right: 75px; }
+.tarjeta-libro:hover {
+    border-style: outset; }    
 .portada-libro {
-    width:100%;
-    height: 70%;
-    /* border:  outset 5px red; */
-    /* margin-left: 11px;
-    margin-bottom: -10px; */
-}
-
-/* .portada-libro:hover{
-    height: 100%;
-} */
-/* !portada libros */
+    width: 100%;
+    height: 220px; }
 .imagen-libro {
     height: 100%;
-    width: 100%;
-    background-size: cover;
+    background-size:contain;
     background-position: center;
-    /* background-repeat: no-repeat; */   
-}
+    background-repeat: no-repeat; }
 .r-1{
-    background-image: url("../img/rec-img1.jpg");
-}
+    background-image: url("../img/rec-img1.jpg"); }
 .r-2{
-    background-image: url("../img/rec-img2.jpg");
-}
+    background-image: url("../img/rec-img2.jpg"); }
 .r-3{
-    background-image: url("../img/rec-img3.webp");
-}
+    background-image: url("../img/rec-img3.webp"); }
 .r-4{
-    background-image: url("../img/rec-img4.jpg");
-}
+    background-image: url("../img/rec-img4.jpg"); }
 .l-1{
-    background-image: url("../img/libro_img1.jfif");
-}
+    background-image: url("../img/libro_img1.jfif"); }
 .l-2{
-    background-image: url("../img/libro_img2.jfif");
-}
+    background-image: url("../img/libro_img2.jfif"); }
 .l-3{
-    background-image: url("../img/libro_img3.jfif");
-}
+    background-image: url("../img/libro_img3.jfif"); }
 .l-4{
-    background-image: url("../img/libro_img4.jfif");
-}
+    background-image: url("../img/libro_img4.jfif"); }
 .l-5{
-    background-image: url("../img/libro_img5.jfif");
-}
+    background-image: url("../img/libro_img5.jfif"); }
 .l-6{
-    background-image: url("../img/libro_img6.jfif");
-}
+    background-image: url("../img/libro_img6.jfif"); }
 .l-7{
-    background-image: url("../img/libro_img7.jfif");
-}
+    background-image: url("../img/libro_img7.jfif"); }
 .datos-libro {
     text-align: center;
     font-family: 'Tahoma';
-    height: 80px;
-}
+    height: 80px; }
 .titulo-libro {
     font-weight: bold;
     font-size: 12px;
-    height: 35px;
-}
+    height: 35px; }
 .autor-libro {
     font-size: 10px;
     margin-top: -11px;
-    height: 15px;
-}
+    height: 15px; }
 .caja-libro {
     display: flex;
     align-items: center;
-    height: 25px;
-    text-align: center;
-}
+    height: 25px; }
 .precio-libro {
     font-size: 15px;
-    text-align:left;
+    text-align:center;
     width: 50%;
     height: 50%;
-    color: orange;
-}
+    color: orange; }
 .btn-compra {
     width: 50%;
-    height: 50%;
+    height: 60%;
     text-align: center;
-    margin-top: -5px;
-}
+    margin-top: -5px; }
 .btn-vermas {
     width: 100%;
-    height: 50%;
+    height: 60%;
     text-align: center;
-    margin-top: -5px;
-}
+    margin-top: -5px; }
 .btn-rojo {
     color: white;
     background-color: rgba(144,25,10,255);
     border: none;
     width: 70px;
     height: 100%;
-    font-size: 10px;
-}
+    font-size: 10px; }
+.btn-rojo:hover {
+    background-color: rgb(95, 17, 7); }
 .conocenos {
     display: flex;
-    margin-top: 50px;
-    padding: 0px 15px 5px 15px;
-}
+    margin-top: 70px;
+    margin-left: 50px;
+    padding: 0px 55px 5px 15px; }
 .conoce-der {
     width:100%;
-    height: 300px;
- }
- .conoce-img {
+    height: 300px;  }
+.conoce-img {
      height: 100%;
      width: 100%;
      background-image: url("../img/librero.jpg");
-     background-size: 100% 100%;
- }
- .conoce-fin{
+     background-size: 100% 100%; }
+.conoce-fin{
     color: rgba(144,25,10,255);
     text-align: center;
-    font-weight: bold;
- }
- footer {    
+    font-weight: bold; }
+footer {    
     display: block;
     background-color: #b69a76;   
     padding: 0px 10px 5px 10px;    
-    margin-top: 20px;
- }
-
- .columnas {
+    margin-top: 80px; }
+.columnas {
     display: flex;
     background-color: #b69a76;
     font-family: 'Tahoma';
     color: white;
     font-size: 12px;
-    justify-content: space-between;
- }
-
-.columna{
-    width: 32%;
-}
-
+    justify-content: space-between; }
+.columna {
+    width: 32%; }
+.columna h4 {
+    font-size: 14px; }
 .columna a{
     text-decoration: none;
-    color: white;
-}
-
+    color: white; }
 .iconos-redes{
-    color:black;
-    text-align: center;
-
-    /* otra manra de centrar*/
     display: flex;
-    justify-content: space-around;
-}
-
+    justify-content: space-around; 
+    margin-left: 20%;
+    margin-right: 20%; }
+.iconos-redes a i {
+    font-size: 24px;
+    color:black; }
 .txt-suscripcion {
-    border: none;
-    padding-left: 10px;
-    font-size: 12px;
-}
-
+    border: none;    
+    padding: 3px 3px 3px 10px;
+    font-size: 12px; }
 .btn-enviar {
-    background-color:rgb(110,46,8);;
+    background-color:rgba(164,90,65,255);
     color: white;
     border: none;
-    font-size: 12px;
-}
-
+    font-size: 12px; 
+    padding: 3px 7px 3px 7px; 
+    border-radius: 5px 5px 5px 5px; }
 .copyright {
     background-color: #b69a76;   
     font-family: 'Tahoma';
     color: white;
     font-size: 12px;
-    text-align: center;
-}
-
+    text-align: center; }
 .ico-black {
-    color: black
-}
+    color: black }
